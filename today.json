@@ -1,13 +1,13 @@
 {
   "date": "2026-10-18",
   "date_label": "Sunday, October 18 · HST",
-  "updated_hst": "2026-10-18 06:01 HST",
+  "updated_hst": "2026-10-18 09:09 HST",
   "best": {
     "zone": "South Shore",
     "area": "Kihei · Wailea · Makena",
     "score": 8.0,
     "label": "Good",
-    "why": "moderate surf (3-5 ft on south-facing shores), calm (4 mph)",
+    "why": "moderate surf (3-5 ft on south-facing shores), calm (5 mph)",
     "spots": "Ulua, Kamaole I-III, Makena Landing, Turtle Town, Molokini"
   },
   "zones": [
@@ -23,7 +23,7 @@
     },
     {
       "zone": "Northwest",
-      "score": 3.0,
+      "score": 2.0,
       "label": "Skip it"
     }
   ],
@@ -35,5 +35,5 @@
     "SOLO",
     "COUPLE"
   ],
-  "dm": "🐢 Aloha! Today's Maui snorkel pick:\n\n🏆 South Shore: 8/10\n🌊 Ka'anapali: 6.5\n⚠️ Northwest: 3 (skip it)\n\nCalm water at Ulua and Kamaole this morning, so go early ☀️\n\nAre you on Maui now or coming soon? 👇\nReply NOW or SOON"
+  "dm": "🐢 Aloha! Today's Maui snorkel pick:\n\n🏆 South Shore: 8/10\n🌊 Ka'anapali: 6.5\n⚠️ Northwest: 2 (skip it)\n\nCalm water at Ulua and Kamaole this morning, so go early ☀️\n\nAre you on Maui now or coming soon? 👇\nReply NOW or SOON"
 }
