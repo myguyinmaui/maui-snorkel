@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Today's Maui snorkel spot · My Guy in Maui</title>
+<meta name="description" content="Best snorkel spot on Maui today, updated every morning.">
+<meta property="og:title" content="Today's Maui snorkel spot">
+<meta property="og:image" content="https://myguyinmaui.github.io/maui-snorkel/card.png">
+</head><body style="margin:0;padding:16px;background:#f2fafc">
+<!-- My Guy in Maui · "Today's Snorkel Spot" embed (paste into a GHL Custom Code / HTML element) -->
+<div id="mgim-spot" style="max-width:520px;margin:0 auto;font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;color:#0b3d4f">
+  <div style="text-align:center;padding:18px;border-radius:18px;background:#e8f7fb">Loading today's snorkel spot… 🐢</div>
+</div>
+<script>
+(function () {
+  var HOST = "https://myguyinmaui.github.io/maui-snorkel/";
+  var FEED = "https://myguyinmaui.github.io/maui-snorkel/today.json";
+  var el = document.getElementById("mgim-spot");
+  function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) {
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function fmt(n) { return (Math.round(n * 2) / 2).toString().replace(/\.0$/, ""); }
+  function color(score) { return score >= 8 ? "#1a9e5c" : score >= 6 ? "#e0a100" : score >= 4 ? "#e07a00" : "#c0392b"; }
+  function hstToday() {
+    try { return new Intl.DateTimeFormat("en-CA", {timeZone: "Pacific/Honolulu"}).format(new Date()); }
+    catch (e) { return ""; }
+  }
+  function render(d) {
+    var b = d.best || {}, zones = d.zones || [], q = "?d=" + encodeURIComponent(d.date || "");
+    var stale = d.date && hstToday() && d.date !== hstToday();
+    var rows = zones.map(function (z) {
+      var top = z.zone && b.zone && b.zone.indexOf(z.zone) === 0;
+      return '<div style="display:flex;justify-content:space-between;align-items:center;padding:10px 14px;margin:6px 0;border-radius:12px;background:' + (top ? "#d2f3e2" : "#fff") + '">' +
+        '<span style="font-weight:' + (top ? 700 : 500) + '">' + (top ? "🏆 " : "") + esc(z.zone) + '</span>' +
+        '<span style="font-weight:700;color:' + color(z.score) + '">' + fmt(z.score) + '/10 · ' + esc(z.label) + '</span></div>';
+    }).join("");
+    el.innerHTML =
+      '<div style="padding:18px;border-radius:18px;background:linear-gradient(180deg,#e8f7fb,#f6fbfd);box-shadow:0 4px 18px rgba(0,60,80,.12)">' +
+      '<div style="font-size:13px;letter-spacing:.06em;text-transform:uppercase;opacity:.75">Today\'s Snorkel Spot · ' + esc(d.date_label) + '</div>' +
+      '<div style="font-size:26px;font-weight:800;margin:6px 0 2px">' + esc(b.zone) + ' <span style="color:' + color(b.score) + '">' + fmt(b.score) + '/10</span></div>' +
+      '<div style="font-size:15px;opacity:.85">' + esc(b.area) + '</div>' +
+      '<div style="font-size:15px;margin:10px 0">' + esc(d.tip) + '</div>' +
+      '<div style="font-size:14px;opacity:.85;margin-bottom:8px">Spots: ' + esc(b.spots) + '</div>' +
+      rows +
+      '<img src="' + HOST + 'card.png' + q + '" alt="Best snorkel spot on Maui today" loading="lazy" style="width:100%;border-radius:14px;margin-top:12px">' +
+      '<a href="https://ig.me/m/myguyinmaui" style="display:block;text-align:center;margin-top:14px;padding:14px;border-radius:999px;background:#0b8fb3;color:#fff;font-weight:700;text-decoration:none">DM SNORKEL for a private guide 🐢</a>' +
+      '<div style="font-size:12px;opacity:.65;margin-top:10px">' + esc(d.credit) + ' · updated ' + esc(d.updated_hst) +
+      (stale ? ' · today\'s update coming soon' : '') + '</div></div>';
+  }
+  fetch(FEED + "?t=" + Date.now(), {cache: "no-store"})
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(render)
+    .catch(function () {
+      el.innerHTML = '<div style="text-align:center;padding:18px;border-radius:18px;background:#e8f7fb">Today\'s snorkel spot is updating. DM SNORKEL on Instagram for today\'s pick 🐢</div>';
+    });
+})();
+</script>
+
+</body></html>
