@@ -1,7 +1,7 @@
 {
-  "date": "2026-10-20",
-  "date_label": "Tuesday, October 20 · HST",
-  "updated_hst": "2026-10-20 06:05 HST",
+  "date": "2026-10-21",
+  "date_label": "Wednesday, October 21 · HST",
+  "updated_hst": "2026-10-21 06:01 HST",
   "best": {
     "zone": "South Shore",
     "area": "Kihei · Wailea · Makena",
@@ -18,13 +18,13 @@
     },
     {
       "zone": "Ka'anapali",
-      "score": 6.5,
-      "label": "Fair"
+      "score": 8.0,
+      "label": "Good"
     },
     {
       "zone": "Northwest",
-      "score": 6.0,
-      "label": "Fair"
+      "score": 7.0,
+      "label": "Good"
     }
   ],
   "credit": "Scores from NWS Honolulu surf + wind forecasts · conditions change, use caution",
@@ -35,5 +35,5 @@
     "SOLO",
     "COUPLE"
   ],
-  "dm": "🐢 Aloha! Today's Maui snorkel pick:\n\n🏆 South Shore: 9/10\n🌊 Ka'anapali: 6.5\n🌊 Northwest: 6\n\nLight wind at Ulua and Kamaole this morning, so go early ☀️\n\nAre you on Maui now or coming soon? 👇\nReply NOW or SOON"
+  "dm": "🐢 Aloha! Today's Maui snorkel pick:\n\n🏆 South Shore: 9/10\n🌊 Ka'anapali: 8\n🌊 Northwest: 7\n\nLight wind at Ulua and Kamaole this morning, so go early ☀️\n\nAre you on Maui now or coming soon? 👇\nReply NOW or SOON"
 }
