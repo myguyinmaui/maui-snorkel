@@ -1,39 +1,39 @@
 {
-  "date": "2026-10-23",
-  "date_label": "Friday, October 23 · HST",
-  "updated_hst": "2026-10-23 06:10 HST",
+  "date": "2026-10-24",
+  "date_label": "Saturday, October 24 · HST",
+  "updated_hst": "2026-10-24 06:03 HST",
   "best": {
-    "zone": "South Shore",
-    "area": "Kihei · Wailea · Makena",
-    "score": 9.5,
-    "label": "Excellent",
-    "why": "small surf (1-3 ft on south-facing shores), calm (5 mph)",
-    "spots": "Ulua, Kamaole I-III, Makena Landing, Turtle Town, Molokini"
+    "zone": "Ka'anapali / West",
+    "area": "Ka'anapali · Lahaina",
+    "score": 7.0,
+    "label": "Good",
+    "why": "small surf (1-3 ft on west-facing shores), breezy (15 mph)",
+    "spots": "Black Rock, Kahekili (Airport Beach), Mala Wharf"
   },
   "zones": [
     {
       "zone": "South Shore",
-      "score": 9.5,
-      "label": "Excellent"
+      "score": 6.0,
+      "label": "Fair"
     },
     {
       "zone": "Ka'anapali",
-      "score": 9.0,
-      "label": "Excellent"
+      "score": 7.0,
+      "label": "Good"
     },
     {
       "zone": "Northwest",
-      "score": 8.0,
+      "score": 7.0,
       "label": "Good"
     }
   ],
   "credit": "Scores from NWS Honolulu surf + wind forecasts · conditions change, use caution",
-  "tip": "Calm water at Ulua and Kamaole this morning, so go early ☀️",
+  "tip": "Breezy at Black Rock and Kahekili this morning, so go early ☀️",
   "ice_breaker": [
     "NOW",
     "SOON",
     "SOLO",
     "COUPLE"
   ],
-  "dm": "🐢 Aloha! Today's Maui snorkel pick:\n\n🏆 South Shore: 9.5/10\n🌊 Ka'anapali: 9\n🌊 Northwest: 8\n\nCalm water at Ulua and Kamaole this morning, so go early ☀️\n\nAre you on Maui now or coming soon? 👇\nReply NOW or SOON"
+  "dm": "🐢 Aloha! Today's Maui snorkel pick:\n\n🌊 South Shore: 6\n🏆 Ka'anapali: 7/10\n🌊 Northwest: 7\n\nBreezy at Black Rock and Kahekili this morning, so go early ☀️\n\nAre you on Maui now or coming soon? 👇\nReply NOW or SOON"
 }
