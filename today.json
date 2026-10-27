@@ -1,30 +1,30 @@
 {
-  "date": "2026-10-26",
-  "date_label": "Monday, October 26 · HST",
-  "updated_hst": "2026-10-26 06:09 HST",
+  "date": "2026-10-27",
+  "date_label": "Tuesday, October 27 · HST",
+  "updated_hst": "2026-10-27 06:11 HST",
   "best": {
     "zone": "Ka'anapali / West",
     "area": "Ka'anapali · Lahaina",
-    "score": 7.5,
+    "score": 8.0,
     "label": "Good",
-    "why": "moderate surf (2-4 ft on west-facing shores), calm (6 mph)",
+    "why": "moderate surf (2-4 ft on west-facing shores), calm (4 mph)",
     "spots": "Black Rock, Kahekili (Airport Beach), Mala Wharf"
   },
   "zones": [
     {
       "zone": "South Shore",
-      "score": 6.0,
-      "label": "Fair"
-    },
-    {
-      "zone": "Ka'anapali",
       "score": 7.5,
       "label": "Good"
     },
     {
+      "zone": "Ka'anapali",
+      "score": 8.0,
+      "label": "Good"
+    },
+    {
       "zone": "Northwest",
-      "score": 5.5,
-      "label": "Fair"
+      "score": 3.0,
+      "label": "Skip it"
     }
   ],
   "credit": "Scores from NWS Honolulu surf + wind forecasts · conditions change, use caution",
@@ -35,5 +35,5 @@
     "SOLO",
     "COUPLE"
   ],
-  "dm": "🐢 Aloha! Today's Maui snorkel pick:\n\n🌊 South Shore: 6\n🏆 Ka'anapali: 7.5/10\n🌊 Northwest: 5.5\n\nCalm water at Black Rock and Kahekili this morning, so go early ☀️\n\nAre you on Maui now or coming soon? 👇\nReply NOW or SOON"
+  "dm": "🐢 Aloha! Today's Maui snorkel pick:\n\n🌊 South Shore: 7.5\n🏆 Ka'anapali: 8/10\n⚠️ Northwest: 3 (skip it)\n\nCalm water at Black Rock and Kahekili this morning, so go early ☀️\n\nAre you on Maui now or coming soon? 👇\nReply NOW or SOON"
 }
