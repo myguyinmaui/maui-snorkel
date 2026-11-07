@@ -1,39 +1,39 @@
 {
-  "date": "2026-11-06",
-  "date_label": "Friday, November 6 · HST",
-  "updated_hst": "2026-11-06 06:08 HST",
+  "date": "2026-11-07",
+  "date_label": "Saturday, November 7 · HST",
+  "updated_hst": "2026-11-07 06:03 HST",
   "best": {
     "zone": "South Shore",
     "area": "Kihei · Wailea · Makena",
-    "score": 7.0,
+    "score": 8.0,
     "label": "Good",
-    "why": "moderate surf (2-4 ft on south-facing shores), breezy (15 mph)",
+    "why": "moderate surf (2-4 ft on south-facing shores), light wind (10 mph)",
     "spots": "Ulua, Kamaole I-III, Makena Landing, Turtle Town, Molokini"
   },
   "zones": [
     {
       "zone": "South Shore",
-      "score": 7.0,
+      "score": 8.0,
       "label": "Good"
     },
     {
       "zone": "Ka'anapali",
-      "score": 1.5,
-      "label": "Skip it"
+      "score": 5.0,
+      "label": "Rough"
     },
     {
       "zone": "Northwest",
-      "score": 1.0,
+      "score": 1.5,
       "label": "Skip it"
     }
   ],
   "credit": "Scores from NWS Honolulu surf + wind forecasts · conditions change, use caution",
-  "tip": "Breezy at Ulua and Kamaole this morning, so go early ☀️",
+  "tip": "Light wind at Ulua and Kamaole this morning, so go early ☀️",
   "ice_breaker": [
     "NOW",
     "SOON",
     "SOLO",
     "COUPLE"
   ],
-  "dm": "🐢 Aloha! Today's Maui snorkel pick:\n\n🏆 South Shore: 7/10\n⚠️ Ka'anapali: 1.5 (skip it)\n⚠️ Northwest: 1 (skip it)\n\nBreezy at Ulua and Kamaole this morning, so go early ☀️\n\nAre you on Maui now or coming soon? 👇\nReply NOW or SOON"
+  "dm": "🐢 Aloha! Today's Maui snorkel pick:\n\n🏆 South Shore: 8/10\n🌊 Ka'anapali: 5\n⚠️ Northwest: 1.5 (skip it)\n\nLight wind at Ulua and Kamaole this morning, so go early ☀️\n\nAre you on Maui now or coming soon? 👇\nReply NOW or SOON"
 }
